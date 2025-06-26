@@ -1,0 +1,44 @@
+# ==========================
+# Python / Jupyter / ML Project .gitignore
+# ==========================
+
+# ✅ Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ✅ Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# ✅ Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# ✅ Data files (optional if you don't want to commit large data files)
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.hdf5
+*.sqlite
+
+# ✅ Model files (optional if you save trained models)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ✅ Logs
+*.log
+
+# ✅ OS files
+.DS_Store
+Thumbs.db
+
+# ✅ IDE settings
+.idea/
+.vscode/
