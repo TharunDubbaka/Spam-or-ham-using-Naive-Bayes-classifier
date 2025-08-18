@@ -1,18 +1,18 @@
 # Spam or Ham using Naive Bayes Classifier
 
-## 📝 Project Overview
+##  Project Overview
 This project uses a Naive Bayes Classifier to distinguish between **ham** (legitimate) and **spam** messages. The goal was to tune the feature extractor (`max_features`) for optimal performance while checking for overfitting and maintaining generalization.
 
 ---
 
-## ⚡️ Feature Selection
+##  Feature Selection
 - Tested feature counts ranging from **3000** to **7000**.
 - Final choice: **3000** — achieving an ideal balance between accuracy and model complexity.
 - Increasing to **4000** yielded no performance benefits and risked overfitting.
 
 ---
 
-## 🥇 Results
+##  Results
 
 ### Training Set
 
@@ -34,7 +34,7 @@ This project uses a Naive Bayes Classifier to distinguish between **ham** (legit
 
 ---
 
-## ⚠️ Observations
+## Observations
 - An unexpected label (`2`) appeared due to a `{"mode":"full"}` entry, which was fixed during preprocessing.
 - The model achieved ~**98% accuracy** across both training and test sets.
 - It worked well on real-world sentences.
@@ -42,12 +42,6 @@ This project uses a Naive Bayes Classifier to distinguish between **ham** (legit
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The classifier is highly effective at detecting spam, with strong precision and recall, and minimal overfitting at `max_features = 3000`.
-
----
-
-## 🚀 Next Steps
-- Deploy the model (e.g., Streamlit app or Flask API).
-- Explore more advanced text processing or deep learning models (e.g., LSTM, Transformer).
 
