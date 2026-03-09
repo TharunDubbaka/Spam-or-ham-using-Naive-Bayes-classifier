@@ -48,7 +48,8 @@ plt.show()
 test_acc=accuracy_score(y_test,y_pred)
 print("Classification report for training data set : ",classification_report(y_train,y_train_pred))
 print("Classification report for testing data set : ",classification_report(y_test,y_pred))
-#print(df['label'].unique())
+#print(df['label'].unique())  THis is just for an error correction 
 print(predict_message("Congratulations!!! You won an ipod on the lucky draw, claim the price by clicking on the link under the email", nbmodel, vect)) 
+
 
 
